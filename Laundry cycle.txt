@@ -1,0 +1,17 @@
+def wear(smell)
+  sample :drum_bass_hard, rate: 12
+  sleep 1
+end
+def wash
+  play 60
+  sleep 1
+end
+def dry
+  sample :guit_e_fifths
+  sleep 3
+end
+3.times do
+  wash(70)
+  wear
+  dry
+end
